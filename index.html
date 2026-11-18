@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f4ec">
+  <meta name="description" content="Eco-Charge Desk Mat — a multipurpose workspace mat with solar-powered USB charging, stationery storage, a clipboard and a phone stand.">
+  <title>Eco-Charge Desk Mat — Charge Smarter. Live Greener.</title>
+  <style>
+    :root{--ink:#20372d;--green:#315b45;--moss:#78916b;--sage:#dfe8d9;--cream:#f5f4ec;--paper:#fffefa;--muted:#66736a;--line:#e4e6dc;--gold:#d6b66e}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,calc(100% - 44px));margin:auto}
+    .nav{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}.brand{font-weight:750;letter-spacing:-.04em;font-size:1.15rem}.brand span{color:var(--moss)}.navlinks{display:flex;gap:27px;font-size:.88rem;color:#526258}.navlinks a:hover{color:var(--green)}
+    .hero{padding:88px 0 76px;display:grid;grid-template-columns:1.08fr .92fr;gap:55px;align-items:center}.eyebrow{text-transform:uppercase;letter-spacing:.17em;font-size:.72rem;font-weight:750;color:var(--moss)}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(3rem,6vw,5.5rem);line-height:.99;letter-spacing:-.075em;margin:18px 0 24px;max-width:680px}h1 em{font-style:normal;color:var(--moss)}.lead{font-size:1.12rem;color:#5e6b61;max-width:540px}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}.btn{padding:13px 20px;border-radius:999px;background:var(--green);color:white;font-size:.9rem;font-weight:650;display:inline-block;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px);background:#244632}.btn.secondary{background:transparent;color:var(--green);border:1px solid #bdcbbd}
+    .visual{min-height:430px;background:#e7ebdf;border-radius:28px;display:grid;place-items:center;position:relative;overflow:hidden}.visual:before,.visual:after{content:"";position:absolute;border:1px solid #cbd7c5;border-radius:50%;width:360px;height:360px}.visual:after{width:470px;height:470px}.deskmat{width:78%;height:245px;background:#d4c9ae;border:8px solid #c2b596;border-radius:19px;box-shadow:0 24px 45px #425b3b24;position:relative;transform:rotate(-7deg);z-index:1}.solar{position:absolute;top:19px;left:20px;width:45%;height:105px;border-radius:8px;background:repeating-linear-gradient(90deg,#284d48 0 2px,#426b60 2px 38px),repeating-linear-gradient(0deg,transparent 0 25px,#91aaa0 25px 27px);border:5px solid #b6b9a2}.solar:after{content:"SOLAR";position:absolute;right:8px;bottom:4px;color:#eaf0df;font-size:8px;letter-spacing:2px}.phone{position:absolute;right:25px;top:28px;width:57px;height:100px;border:5px solid #34443b;border-radius:10px;background:#eaf0e7;box-shadow:0 6px 12px #253b2b33}.phone:after{content:"";position:absolute;bottom:7px;left:22px;width:5px;height:5px;background:#6d806d;border-radius:50%}.boxpen{position:absolute;left:22px;bottom:18px;width:115px;height:58px;border-radius:5px;background:#a4aa8b;border:3px solid #8c9576}.pen{position:absolute;bottom:82px;left:50px;width:7px;height:75px;background:#6b7e63;border-radius:5px;transform:rotate(12deg)}.stand{position:absolute;right:34px;bottom:13px;width:72px;height:55px;border:5px solid #899477;border-bottom:0;transform:skew(-12deg);border-radius:8px 8px 0 0}.float-note{position:absolute;z-index:2;background:#fffefa;padding:10px 14px;border-radius:12px;box-shadow:0 8px 24px #20372d12;font-size:.76rem;font-weight:650}.note-one{top:54px;left:18px}.note-two{right:18px;bottom:54px}
+    section{padding:82px 0}.section-head{max-width:650px;margin-bottom:38px}h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.08;letter-spacing:-.055em;margin-bottom:15px}.section-head p,.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.feature{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:23px;min-height:195px}.num{font-size:.75rem;color:var(--moss);font-weight:800;letter-spacing:.1em}.feature h3{font-size:1.08rem;margin:22px 0 8px}.feature p{font-size:.9rem;color:var(--muted);margin:0}.how{background:#e9eee5}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}.step{border-top:1px solid #bdcbbb;padding-top:20px}.step strong{font-size:.78rem;color:var(--moss);letter-spacing:.12em}.step h3{margin:13px 0 8px;font-size:1.18rem}.step p{color:var(--muted);font-size:.94rem}
+    .sustain{display:grid;grid-template-columns:.8fr 1.2fr;gap:55px;align-items:start}.sdgs{display:grid;gap:12px}.sdg{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:17px 19px;display:flex;gap:16px;align-items:center}.sdg b{font-size:.78rem;color:var(--moss);min-width:58px}.sdg span{font-weight:650}.price{background:var(--green);color:#f8f7ef;border-radius:26px;padding:42px;display:grid;grid-template-columns:1fr 1fr;gap:30px;align-items:center}.price h2{color:white}.price p{color:#d8e1d5}.price-number{font-size:clamp(2.7rem,5vw,4.3rem);font-weight:780;letter-spacing:-.07em;line-height:1}.price small{color:#d8e1d5}.price-details{border-left:1px solid #ffffff38;padding-left:28px}.price-details div{display:flex;justify-content:space-between;gap:15px;padding:9px 0;border-bottom:1px solid #ffffff26;font-size:.92rem}.price-details div:last-child{border:0}.prototype{background:var(--paper);border:1px dashed #b8c5b4;border-radius:20px;padding:32px;text-align:center}.prototype p{color:var(--muted);max-width:600px;margin:0 auto}.footer{padding:32px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:.82rem}
+    .reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:none}
+    @media(max-width:800px){.navlinks{gap:13px;font-size:.78rem}.hero{grid-template-columns:1fr;padding:60px 0;gap:35px}.visual{min-height:350px}.grid{grid-template-columns:repeat(2,1fr)}.sustain{grid-template-columns:1fr;gap:25px}.price{grid-template-columns:1fr}.price-details{border-left:0;border-top:1px solid #ffffff38;padding:20px 0 0}.steps{grid-template-columns:1fr;gap:18px}}
+    @media(max-width:520px){.wrap{width:min(100% - 30px,1120px)}.nav{height:auto;min-height:68px;align-items:flex-start;padding:18px 0;gap:12px;flex-direction:column}.navlinks{flex-wrap:wrap}.grid{grid-template-columns:1fr}.visual{min-height:300px}.deskmat{height:200px}.solar{height:82px}.phone{height:80px;width:48px}.feature{min-height:0}.footer{flex-direction:column}.price{padding:28px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="wrap nav">
+    <a class="brand" href="#home">eco<span>charge</span>.</a>
+    <nav class="navlinks" aria-label="Main navigation"><a href="#product">Product</a><a href="#how">How it works</a><a href="#impact">Our impact</a><a href="#pricing">Pricing</a></nav>
+  </header>
+  <main>
+    <section class="wrap hero" id="home">
+      <div class="reveal">
+        <div class="eyebrow">A smarter way to work</div>
+        <h1>Make room for a <em>greener</em> workday.</h1>
+        <p class="lead">Meet the Eco-Charge Desk Mat: a multipurpose workspace companion that brings solar-powered USB charging and everyday organisation together.</p>
+        <div class="actions"><a class="btn" href="#product">Explore the product</a><a class="btn secondary" href="#impact">Why it matters</a></div>
+      </div>
+      <div class="visual reveal" role="img" aria-label="Illustration of a desk mat with a solar panel, phone, stationery holder and phone stand">
+        <span class="float-note note-one">☀ Solar-powered USB</span><div class="deskmat"><div class="solar"></div><div class="phone"></div><div class="boxpen"></div><div class="pen"></div><div class="stand"></div></div><span class="float-note note-two">One mat. More possibilities.</span>
+      </div>
+    </section>
+    <section class="wrap" id="product">
+      <div class="section-head reveal"><div class="eyebrow">Meet the desk mat</div><h2>Less desk clutter. More thoughtful design.</h2><p>Designed for staffrooms, offices, libraries, colleges, hospitals and shared workspaces, the Eco-Charge Desk Mat combines useful desk essentials in one place.</p></div>
+      <div class="grid">
+        <article class="feature reveal"><div class="num">01 / POWER</div><h3>Solar USB charging</h3><p>A solar panel converts sunlight into electrical energy and supplies USB power to compatible devices.</p></article>
+        <article class="feature reveal"><div class="num">02 / ORGANISE</div><h3>Stationery storage</h3><p>A built-in storage box keeps everyday stationery together and within easy reach.</p></article>
+        <article class="feature reveal"><div class="num">03 / DISPLAY</div><h3>Phone stand</h3><p>A handy stand keeps your phone upright on the desk while you work.</p></article>
+        <article class="feature reveal"><div class="num">04 / PLAN</div><h3>Clipboard space</h3><p>A practical writing surface makes it easier to keep notes, lists and papers organised.</p></article>
+      </div>
+    </section>
+    <section class="how" id="how">
+      <div class="wrap">
+        <div class="section-head reveal"><div class="eyebrow">Simple by design</div><h2>How does it work?</h2><p>The idea is straightforward: make use of available sunlight and bring useful workspace features into one compact product.</p></div>
+        <div class="steps">
+          <article class="step reveal"><strong>STEP 01</strong><h3>Capture sunlight</h3><p>The solar panel receives sunlight and converts it into electrical energy.</p></article>
+          <article class="step reveal"><strong>STEP 02</strong><h3>Connect through USB</h3><p>The panel's output is made available through the USB cable connection.</p></article>
+          <article class="step reveal"><strong>STEP 03</strong><h3>Power a compatible device</h3><p>Connect a compatible USB device in suitable sunlight. Charging performance depends on the available light and device.</p></article>
+        </div>
+      </div>
+    </section>
+    <section class="wrap" id="impact">
+      <div class="sustain">
+        <div class="section-head reveal"><div class="eyebrow">Designed with purpose</div><h2>A small idea connected to bigger goals.</h2><p>By demonstrating the use of solar energy in an everyday workspace, this project encourages awareness of renewable energy and more thoughtful consumption.</p></div>
+        <div class="sdgs">
+          <div class="sdg reveal"><b>SDG 07</b><span>Affordable and Clean Energy</span></div>
+          <div class="sdg reveal"><b>SDG 12</b><span>Responsible Consumption and Production</span></div>
+          <div class="sdg reveal"><b>SDG 13</b><span>Climate Action</span></div>
+        </div>
+      </div>
+    </section>
+    <section class="wrap" id="pricing">
+      <div class="price reveal">
+        <div><div class="eyebrow" style="color:#c9d8bd">The project at a glance</div><h2>Practical thinking, accessible costing.</h2><p>The prototype was assembled with a focus on keeping the design simple and demonstrating its core features.</p><div class="price-number">₹850</div><small>Proposed selling price</small></div>
+        <div class="price-details">
+          <div><span>Prototype / manufacturing cost</span><strong>₹600</strong></div>
+          <div><span>Proposed selling price</span><strong>₹850</strong></div>
+          <div><span>Difference before other expenses</span><strong>₹250</strong></div>
+          <p style="font-size:.78rem;margin:14px 0 0">The ₹250 difference is before packaging, distribution, taxes or other business expenses; it is not net profit.</p>
+        </div>
+      </div>
+    </section>
+    <section class="wrap">
+      <div class="prototype reveal"><div class="eyebrow">Our prototype</div><h2>From an idea to a working model.</h2><p>This project is presented as a prototype. Its USB charging feature is designed for compatible devices in suitable sunlight. Product photographs and further testing details can be added here as the project develops.</p></div>
+    </section>
+  </main>
+  <footer class="wrap footer"><span>© 2026 Eco-Charge Desk Mat</span><span>Charge Smarter. Live Greener.</span></footer>
+  <script>
+    const items = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); } });
+      }, {threshold: 0.12});
+      items.forEach(item => observer.observe(item));
+    } else { items.forEach(item => item.classList.add('visible')); }
+  </script>
+</body>
+</html>
